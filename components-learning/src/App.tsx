@@ -1,8 +1,15 @@
- import ButtonCheckComponent from "./components/ButtonCheckcom";
- import Counter from "./components/increment"
- import CounterClass from "./components/ClassComponents"
-import DataBinding from "./components/DataBindingComponent";
-import ParentComponent from "./components/ParentComponent";
+//  import ButtonCheckComponent from "./components/ButtonCheckcom";
+//  import Counter from "./components/increment"
+//  import CounterClass from "./components/ClassComponents"
+// import DataBinding from "./components/DataBindingComponent";
+// import ParentComponent from "./components/ParentComponent";
+// import WelcomeMessage from "./components/WelcomeMesaage";
+// import Greeting from "./components/Greeeting";
+// import ConditionalRendering from "./ConditionalRendering";
+// import ItemList from "./ListUsage";
+
+import ArrayTraversal from "./ArrayTraversal"
+
  
  
  
@@ -11,10 +18,14 @@ import ParentComponent from "./components/ParentComponent";
      <>
      {/* <Counter/>  */}
     {/* <ButtonCheckComponent/> */}
-    <CounterClass/>
+    {/* <CounterClass/> */}
      {/* <DataBinding/> */}
-     <DataBinding/>
-     <ParentComponent/>
+     {/* <ParentComponent/> */}
+     {/* <WelcomeMessage LoggedIn={true}/> */}
+     {/* <Greeting isLoggedIn={true} isAuthorized={false}/> */}
+     {/* <ConditionalRendering isLoggedIn={false}/> */}
+     {/* <ItemList/> */}
+     <ArrayTraversal/>
     </>
   )
  }
